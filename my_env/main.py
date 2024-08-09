@@ -36,7 +36,8 @@ def read_root():
  return {
         "Greetings": "Welcome to SWEP200",
         "Note": "Simple CRUD API using FASTAPI",
-        "GitHub": "https://github.com/bellobambo/FAST-API"
+        "GitHub": "https://github.com/bellobambo/FAST-API",
+        "routes" : "https://fast-api-ocrl.onrender.com/docs"
     }
 
 @app.get('/courses')
