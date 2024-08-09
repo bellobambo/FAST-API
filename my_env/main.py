@@ -33,7 +33,11 @@ class Course(BaseModel):
 
 @app.get('/')
 def read_root():
-    return{'Greatings ': 'welcome to SWEP200'}
+ return {
+        "Greetings": "Welcome to SWEP200",
+        "Note": "Simple CRUD API using FASTAPI",
+        "GitHub": "https://github.com/bellobambo/FAST-API"
+    }
 
 @app.get('/courses')
 def get_courses():
